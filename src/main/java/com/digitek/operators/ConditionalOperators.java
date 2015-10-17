@@ -37,7 +37,7 @@ public class ConditionalOperators {
 		System.out.println("Enter the Age");
 		age=sc.nextInt();
 		String s=(age>=18)?"Major":"Minor";
-		System.out.println("the result:"+s);
+		System.out.println("the Result is :"+s);
 		
 	}
 
