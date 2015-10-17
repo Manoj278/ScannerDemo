@@ -36,7 +36,9 @@ public class ConditionalOperators {
 		Scanner sc= new Scanner(System.in);
 		System.out.println("Enter the Age");
 		age=sc.nextInt();
-		int result=((age>=18?:age:false));
+		String s=(age>=18)?"Major":"Minor";
+		System.out.println("the result:"+s);
+		
 	}
 
 	private static boolean modulusFourHundred(int year) {
