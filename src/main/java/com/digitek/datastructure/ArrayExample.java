@@ -14,7 +14,8 @@ public class ArrayExample {
 	 */
 	public static void main(String[] args) {
       
-		array();
+		//array();
+		arrayLoop();
 
 	}
 
@@ -27,5 +28,15 @@ public class ArrayExample {
 		System.out.println("elements"+number[2]);
 		System.out.println("elements"+number[3]);
 		
+	}
+		
+		public static void arrayLoop(){
+		
+		int []number ={1,2,3,4};
+		System.out.println("Number of elements"+number.length);
+		for (int counter=0;counter<number.length;counter++)
+		{
+		 System.out.println("elements"+number[counter]);
+		}
 	}
 }
