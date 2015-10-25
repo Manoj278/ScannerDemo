@@ -15,7 +15,9 @@ public class ArrayExample {
 	public static void main(String[] args) {
       
 		//array();
-		arrayLoop();
+		//arrayLoop();
+		//stringArrayLoop();
+		getArray();
 
 	}
 
@@ -39,4 +41,25 @@ public class ArrayExample {
 		 System.out.println("elements"+number[counter]);
 		}
 	}
+
+		public static void stringArrayLoop(){
+			
+		String []day ={"sun","mon","Tue","wed","thr","fri","sat"};
+		System.out.println("Number of elements"+day.length);
+	    for (int counter=0;counter<day.length;counter++)
+		{
+		 System.out.println("The day is :"+day[counter]);
+			}
+		}
+		
+		public static void getArray(){
+			
+		String []day= new String[5];
+		for (int counter=0;counter<day.length;counter++)
+		{
+		 day[counter]="Added Value"+counter;
+		
+		 System.out.println("The day is :"+day[counter]);
+		}
+		}
 }
